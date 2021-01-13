@@ -2,9 +2,9 @@
 class Connection {
 
     private static $host = "localhost";
-    private static $database = "cloudAD_bookstore";
+    private static $database = "cloud_bookstore_2";
     private static $username = "root";
-    private static $password = "";
+    private static $password = "root";
 
     public static function getInstance() {
         $dsn = 'mysql:host=' . Connection::$host . ';dbname=' . Connection::$database;
